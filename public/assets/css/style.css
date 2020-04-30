@@ -1,0 +1,91 @@
+body {
+    background-color: #f5f4f4;
+}
+
+@font-face {
+    font-family: "Cunia";
+    src: url(../fonts/Cunia.otf);
+}
+
+#title {
+    color: #404040;
+    width: auto;
+    height: auto!important;
+    text-align: center;
+    font-family: "Cunia";
+    font-size: 7em;
+
+}
+
+#title-me {
+    color: #D4AF37;
+}
+
+#presentation {
+    height: auto;
+    width: 60em;
+    margin: auto;
+    background-color: white;
+    padding: 3em;
+    border-radius: 1em;
+    box-shadow: 6px 6px 0px 0px rgba(64,64,64,1);
+}
+
+#presentation p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 1.7em;
+    color: #404040;
+}
+
+#open {
+    color: #D4AF37;
+    font-size: 4em;
+    position: absolute;
+    margin-top: -0.5em;
+    margin-left: -0.45em;
+}
+
+#close {
+    color: #D4AF37;
+    font-size: 4em;
+    position: absolute;
+    margin-top: -0.2em;
+    margin-left: 15em;
+}
+
+#linksite {
+    font-family: "Cunia";
+    color: #D4AF37;
+    text-decoration: none!important;
+    text-align: center;
+    display: block;
+    font-size: 1.3em;
+    margin-top: 6em;
+}
+
+#linksite:hover {
+    color: #404040;
+    text-decoration: underline!important;
+}
+
+footer{
+    font-size: 0.6em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 19em;
+}
+
+footer a {
+    color: #D4AF37;
+}
+
+#organisedme{
+    font-weight: bold;
+    font-style: none!important;
+    font-size: 1.1em;
+}
+
+#bold{
+    font-weight: bold;
+}
